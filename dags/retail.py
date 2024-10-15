@@ -9,7 +9,6 @@ from astro.sql.table import Table, Metadata
 from astro.constants import FileType
 
 
-
 @dag(
     start_date = datetime.now(),
     schedule_interval = None,
